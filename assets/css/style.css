@@ -38,6 +38,9 @@ body{
 .font-size-20{
     font-size: 20px;
 }
+.fw-500{
+    font-weight: 500;
+}
 .customHeader{
     background-color: #FDFEFF;
     border: 1px solid #e4e7eb;
@@ -137,6 +140,9 @@ body{
 .convert{
     background: url(../images/bgconvert.svg) top;
 }
+.borderPrimary{
+    border-bottom:1px solid #CEBEFE;
+}
 @media screen and (max-width:500px){
     .containerButtons .btn{
         width: 100%;
@@ -144,5 +150,8 @@ body{
     }
     .marketing{
         padding-top: 20px;
+    }
+    .footer .privacy p{
+        font-size: 14px;
     }
 }

@@ -23,7 +23,7 @@
       <p class="text-center pt-3 pb-3 mb-0 font-size-13 textSecondary">🎉 We’re happy to share with you that we’re going to be present in the next YC batch 2024 in San Francisco, California</p>
     </div>
     
-    <nav class="navbar customHeader navbar-expand-lg sticky-top px-lg-5">
+    <nav class="navbar customHeader navbar-expand-lg sticky-top px-lg-5 px-0">
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
             <img src="assets/images/logo.svg" class="ms-3 ms-lg-0 pt-1" alt="">
             <span>Overboard</span>
@@ -61,6 +61,8 @@
             </ul>
         </div>
     </nav>
+    <!-- End of Header desktop -->
+    <!-- header for mobile -->
     <div class="offcanvas offcanvas-start bg-white text-dark" tabindex="-1" id="offcanvasLet" aria-labelledby="offcanvasLetLabel">
         <div class="offcanvas-header">
             <a href="index.html">
@@ -82,6 +84,8 @@
             </ul>
         </div>
     </div>
+    <!-- End of header for mobile -->
+
     <!-- First section marketing -->
     <div class="marketing">
       <div class="container">
@@ -93,7 +97,7 @@
         </div>
         <h1 class="display-2 text-center fw-bold pt-xxl-2">Send marketing campaigns <br> that go overboard</h1>
         <p class="fw-light text-center pt-3">Send meaningful and engaging email campaigns to your <br> customers, using the power of artificial intelligence</p>
-        <div class="text-center d-lg-flex gap-3 justify-content-center pb-4 pt-lg-5 pt-3 containerButtons">
+        <div class="text-center d-md-flex gap-3 justify-content-center pb-4 pt-lg-5 pt-3 containerButtons">
           <button class="btn btnLogin h-46 px-4">Login to your account</button>
           <button class="btn btnStart h-46 px-4">Get Started now</button>
         </div>
@@ -107,8 +111,9 @@
         </div>
       </div>
     </div>
+
     <div class="container">
-      <div class="d-lg-flex justify-content-center gap-lg-5 pt-lg-5 pt-4">
+      <div class="d-none d-lg-flex justify-content-center gap-lg-5 pt-lg-5 pt-4">
         <div class="text-center">
           <a href="#"><img src="assets/images/shopify.svg" data-aos="fade-up" data-aos-duration="1000"></a>
         </div>
@@ -122,6 +127,34 @@
           <a href="#"><img src="assets/images/pipedrive.svg" data-aos="fade-up" data-aos-duration="2000"></a>
         </div>
       </div>
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide d-lg-none" data-bs-ride="carousel">
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner pt-4">
+          <div class="carousel-item active">
+            <a href="#"><img src="assets/images/shopify.svg" alt="Los Angeles" class="d-block m-auto"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="assets/images/woo.svg" alt="Chicago" class="d-block m-auto"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="assets/images/hubspot.svg" alt="New York" class="d-block m-auto"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="assets/images/pipedrive.svg" alt="New York" class="d-block m-auto"></a>
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
       <div class="row py-lg-5 py-4 justify-content-between">
         <div class="col-lg-6">
           <p class="textPrimary fw-bold">Versatility</p>
@@ -168,13 +201,14 @@
         </div>
 
         <div class="col-lg-6 pt-2 overflow-hidden">
-          <div class="position-relative text-end pt-lg-4">
+          <div class="position-relative text-lg-end text-center pt-lg-4">
             <img src="assets/images/innovative.svg" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
           </div>
         </div>
       </div>
+
       <div class="row py-2 justify-content-between">
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-lg-start text-center">
           <img src="assets/images/track.svg" class="img-fluid" data-aos="fade-right" data-aos-duration="1000">
         </div>
         <div class="col-lg-6 pt-lg-5">
@@ -221,6 +255,7 @@
           </div>
         </div>
       </div>
+
       <div class="row py-lg-5 py-4 justify-content-between">
         <div class="col-lg-6">
           <p class="textPrimary fw-bold">Save time</p>
@@ -270,11 +305,12 @@
           <img src="assets/images/power.svg" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
         </div>
       </div>
+
       <div class="convert py-5">
         <h1 class="text-center fw-bold pt-xxl-2">Prospect, Convert & Retain Customers</h1>
         <p class="fw-light text-center pt-3">We'll help you target the right customers, engage shoppers, and save <br>
           time with ready-made automation templates.</p>
-        <div class="text-center d-lg-flex gap-3 justify-content-center pb-4 pt-lg-5 pt-3 containerButtons">
+        <div class="text-center d-md-flex gap-3 justify-content-center pb-4 pt-lg-5 pt-3 containerButtons">
           <button class="btn btnLogin h-46 px-4">Contact Sales</button>
           <button class="btn btnStart h-46 px-4">Get started for free <img src="assets/images/arrowright.svg"></button>
         </div>
@@ -284,45 +320,310 @@
           <p class="font-size-15 textSecondary fw-light pt-3">We know there's always something different to design - that's why you can now design any <br> responsive interface you want</p>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-lg-4 pb-2">
+        <div class="col-lg-4 col-md-6 pb-3">
           <div class="card details" data-aos="fade-up" data-aos-duration="1000">
             <img class="card-img img-fluid" src="assets/images/emailsms.svg">
             <div class="card-body">
               <h4 class="font-size-18">Email + SMS Campaigns</h4>
-              <p class="fw-light textSecondary font-size-15">Spend less time on repetitive tasks with hundreds
+              <p class="fw-light textSecondary font-size-14">Spend less time on repetitive tasks with hundreds
                 of components, blocks and predesigned pages for
                 website design.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 pb-2">
+        <div class="col-lg-4 col-md-6 pb-3">
           <div class="card details" data-aos="fade-up" data-aos-duration="1500">
             <img class="card-img img-fluid" src="assets/images/automation.svg">
             <div class="card-body">
               <h4 class="font-size-18">Automation Workflows</h4>
-              <p class="fw-light textSecondary font-size-15">Everything from versatile styles, customization
+              <p class="fw-light textSecondary font-size-14">Everything from versatile styles, customization
                 options and hundreds of pre-designed pages at
                 your fingertips.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 pb-2">
+        <div class="col-lg-4 col-md-6 pb-3">
           <div class="card details" data-aos="fade-up" data-aos-duration="2000">
             <img class="card-img img-fluid" src="assets/images/emaildesign.svg">
             <div class="card-body">
               <h4 class="font-size-18">Email Design Builder</h4>
-              <p class="fw-light textSecondary font-size-15">Design captivating emails effortlessly with the power of AI. Elevate your email marketing game with automated and visually stunning designs</p>
+              <p class="fw-light textSecondary font-size-14">Design captivating emails effortlessly with the power of AI. Elevate your email marketing game with automated and visually stunning designs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="1000">
+            <img class="card-img img-fluid" src="assets/images/segma.png">
+            <div class="card-body">
+              <h4 class="font-size-18">Audience Segmentation </h4>
+              <p class="fw-light textSecondary font-size-14">Design responsive e-commerce websites easily
+                with our dedicated e-commerce components,
+                blocks and pages.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="1500">
+            <img class="card-img img-fluid" src="assets/images/analytics.png">
+            <div class="card-body">
+              <h4 class="font-size-18">Tracking & Analytics  </h4>
+              <p class="fw-light textSecondary font-size-14">Each component, block or page has been designed
+                in a high-fidelity wireframe state too, letting you
+                start with concepts first.
+              <p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="2000">
+            <img class="card-img img-fluid" src="assets/images/available.png">
+            <div class="card-body">
+              <h4 class="font-size-18">Available on the go</h4>
+              <p class="fw-light textSecondary font-size-14">We wanted to make interface design so easy that
+                even mobile application design is a breeze by
+                means of customization options.
+              <p>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center pt-lg-5 mt-lg-5">
+      
+      <!-- Testimonials -->
+      <div class="text-center py-lg-5 py-4">
         <p class="textPrimary fw-bold">Testimonials</p>
         <h2 class="fw-bold">Don’t take our word for it, hundreds of happy <br> customers vouch for our platform</h2>
         <p class="font-size-15 textSecondary fw-light pt-3">Our design system covers everything from the ground up. From styles to components and premade blocks and pages.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card-body">
+              <h4 class="mb-0">Seamless UX</h4>
+              <img src="assets/images/hr.png" class="img-fluid">
+              <p class="fw-light textSecondary font-size-16 pt-3">
+                “Mailmodo is a no-brainer for fast-growing
+                companies. Their no-code interactive
+                emails are easily configurable, and their
+                team ensures high open rates. This is one
+                of the highest value products in our tech
+                stack.”
+              <p>
+              <h6 class="font-size-14 fw-bold pt-3">Rose Wang</h6>
+              <p class="textSecondary font-size-14 mb-0">Bluesky PBLLC</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="1500">
+            <div class="card-body">
+              <h4 class="mb-0">Great Customer Support</h4>
+              <img src="assets/images/hr.png" class="img-fluid">
+              <p class="fw-light textSecondary font-size-15 pt-3">
+                “In spite of the growth that Mailmodo
+                experienced, it has kept its identity of being
+                customer centric and continues to work
+                closely with us on ensuring that all of our
+                needs are met with rapid implementation
+                and outstanding support.”
+              <p>
+              <h6 class="font-size-14 fw-bold pt-4">Leonard Yampolsky</h6>
+              <p class="textSecondary font-size-14 mb-0">NCB Management Services, Inc.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card-body">
+              <h4 class="mb-0">Easy Migration</h4>
+              <img src="assets/images/hr.png" class="img-fluid">
+              <p class="fw-light textSecondary pt-3">
+                “When it was time to move on from our
+                (very expensive) CRM-based mailing
+                service, I discovered Mailmodo. I tried it out,
+                and I couldn't be happier: the UX is on point,
+                everything works smoothly, support is
+                responsive.”
+              <p>
+              <h6 class="font-size-14 fw-bold pt-3">Tanya Krutko</h6>
+              <p class="textSecondary font-size-14 mb-0">Cartwheel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Testimonials -->
+
+      <!-- Unified Experience -->
+      <div class="text-center py-lg-5 py-4">
+        <p class="textPrimary fw-bold">Unified Experience</p>
+        <h2 class="fw-bold">All the tools you need to get on top of your <br> business, waiting for you in one place</h2>
+        <p class="font-size-15 textSecondary fw-light pt-3">Our design system covers everything from the ground up. From styles to components and premade blocks and pages.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="2000">
+            <img class="card-img img-fluid" src="assets/images/import.png">
+            <div class="card-body">
+              <h4 class="font-size-18">Multiple ways to import/sync your contacts</h4>
+              <p class="fw-light textSecondary font-size-14">
+                Each component, block or page has been designed
+                in a high-fidelity wireframe state too, letting you
+                start with concepts first.
+              <p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="2000">
+            <img class="card-img img-fluid" src="assets/images/usage.png">
+            <div class="card-body">
+              <h4 class="font-size-18">Usage and billing are now easier than ever</h4>
+              <p class="fw-light textSecondary font-size-14">
+                Each component, block or page has been designed
+                in a high-fidelity wireframe state too, letting you
+                start with concepts first.
+              <p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="1000">
+            <img class="card-img img-fluid" src="assets/images/dotcard.png">
+            <div class="card-body">
+              <h4 class="font-size-18">Your customer data is 100% encrypted </h4>
+              <p class="fw-light textSecondary font-size-14">
+                Each component, block or page has been designed
+                in a high-fidelity wireframe state too, letting you
+                start with concepts first.
+              <p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-6 pb-3">
+          <div class="card details" data-aos="fade-up" data-aos-duration="1000">
+            <img class="card-img img-fluid" src="assets/images/favourite.png">
+            <div class="card-body">
+              <h4 class="font-size-18">Integrations with all your favorite tools </h4>
+              <p class="fw-light textSecondary font-size-14">
+                Each component, block or page has been designed <br>
+                in a high-fidelity wireframe state too, letting you <br>
+                start with concepts first.
+              <p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Unified Experience -->
+
+      <div class="convert py-lg-5 py-3">
+        <div class="convert">
+          <h1 class="text-center fw-bold pt-xxl-2">Become a part of the fastest growing <br> customer campaigns platform in the region</h1>
+          <p class="fw-light text-center pt-3">We'll help you target the right customers, engage shoppers, and save <br>
+            time with ready-made automation templates.</p>
+        </div>
+        <div class="text-center d-md-flex gap-3 justify-content-center pb-md-4 pb-2 pt-lg-5 pt-3 containerButtons">
+          <button class="btn btnLogin h-46 px-4">Contact Sales</button>
+          <button class="btn btnStart h-46 px-4">Get started for free <img src="assets/images/arrowright.svg"></button>
+        </div>
+      </div>
+      <div class="footer pt-lg-5">
+        <div class="row justify-content-between borderPrimary pb-lg-5 pb-3 mb-3">
+          <div class="col-lg-3 col-12 ps-0 ps-sm-2">
+            <a href="#" class="text-decoration-none text-black font-size-16 fw-bold d-flex gap-2 align-items-center"><img src="assets/images/logo.svg" class="ms-3 ms-lg-0 pt-1" alt="">
+              <span>Overboard</span>
+            </a>
+            <p class="pt-3 textSecondary font-size-18 ps-2 ms-1 ms-sm-0 ps-sm-0">Send marketing campaigns that go overboard</p>
+          </div>
+          <div class="col-lg-2 col-6">
+            <h6 class="font-size-16 text-black pt-1 pb-3">Product</h6>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Digital Invoice</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Insights</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Reimbursements</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Virtual Assistant</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Artificial Intelligence</a>
+            </p>
+          </div>
+          <div class="col-lg-2 col-6">
+            <h6 class="font-size-16 text-black pt-1 pb-3">Company</h6>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">About Us</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Newsletters</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Our Partners</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Career</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Contact Us</a>
+            </p>
+          </div>
+          <div class="col-lg-2 col-6">
+            <h6 class="font-size-16 text-black pt-1 pb-3">Resources</h6>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Blog</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Pricing</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">FAQ</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Events</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Ebook & Guide</a>
+            </p>
+          </div>
+          <div class="col-lg-2 col-6">
+            <h6 class="font-size-16 text-black pt-1 pb-3">Follow Us</h6>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">LinkedIn</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Twitter</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Instagram</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">Facebook</a>
+            </p>
+            <p>
+              <a href="#" class="fw-light text-secondary text-decoration-none">YouTube</a>
+            </p>
+          </div>
+        </div>
+        <div class="d-lg-flex align-items-center pb-2">
+          <div class="d-flex gap-lg-5 justify-content-between justify-content-lg-between privacy w-100">
+            <p>
+              <a href="#" class="fw-500 text-black text-decoration-none">Privacy Policy</a>
+            </p> 
+            <p>
+              <a href="#" class="fw-500 text-black text-decoration-none border-end border-start px-lg-5 px-3">Terms & Conditions</a>
+            </p> 
+            <p>
+              <a href="#" class="fw-500 text-black text-decoration-none">Cookie Policy</a>
+            </p> 
+          </div>
+          <p class="textSecondary fw-500 text-center text-lg-end w-100">© Overboard 2023</p>
+        </div>
       </div>
     </div>
     <script src="assets/js/swiper-bundle.min.js"></script>
