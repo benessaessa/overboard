@@ -60,6 +60,9 @@ body{
     font-weight: 500;
     line-height: 20px;
 }
+.customHeader .navbar-toggler:focus{
+    box-shadow: none;
+}
 .btnLogin{
     color: #576272;
     text-align: center;
