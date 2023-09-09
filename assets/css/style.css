@@ -14,6 +14,9 @@ body{
 .textSecondary{
     color: #495A6B;;
 }
+.textMenu{
+    color: #8898AA;
+}
 .font-size-13{
     font-size: 13px;
 }
@@ -62,6 +65,30 @@ body{
 }
 .customHeader .navbar-toggler:focus{
     box-shadow: none;
+}
+.customHeader .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.customHeader .has-megamenu{position:static!important;}
+	.customHeader .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.customHeader .navbar-collapse, .customHeader.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+/* ============ mobile view .end// ============ */
+.col-megamenu .title{
+    color: #2E2151;
+    font-size: 15px;
 }
 .btnLogin{
     color: #576272;
