@@ -23,6 +23,9 @@ body{
 .bgSecondary{
     background-color: #F0F7FF;
 }
+.bgLight{
+    background-color: #F8F9FB;
+}
 .font-size-13{
     font-size: 13px;
 }
