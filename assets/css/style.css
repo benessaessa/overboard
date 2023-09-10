@@ -17,6 +17,12 @@ body{
 .textMenu{
     color: #8898AA;
 }
+.textBlue{
+    color: #2440E5;
+}
+.bgSecondary{
+    background-color: #F0F7FF;
+}
 .font-size-13{
     font-size: 13px;
 }
