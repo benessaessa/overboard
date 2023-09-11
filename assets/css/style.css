@@ -20,6 +20,9 @@ body{
 .textBlue{
     color: #2440E5;
 }
+.textGreen{
+    color: #2AA63C;
+}
 .bgSecondary{
     background-color: #F0F7FF;
 }
@@ -181,6 +184,10 @@ body{
 }
 .borderPrimary{
     border-bottom:1px solid #CEBEFE;
+}
+.borderX{
+    border-left: 1px solid #E5E5E7;
+    border-right: 1px solid #E5E5E7;
 }
 @media screen and (max-width:500px){
     .containerButtons .btn{
