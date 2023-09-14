@@ -81,6 +81,10 @@ body{
     font-weight: 500;
     line-height: 20px;
 }
+.customHeader .navbar-nav .nav-item .nav-link.active{
+    /* border-bottom: 1px solid #2541E5; */
+    color: #2541E5;
+}
 .customHeader .navbar-toggler:focus{
     box-shadow: none;
 }
