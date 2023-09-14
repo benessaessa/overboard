@@ -23,11 +23,17 @@ body{
 .textGreen{
     color: #2AA63C;
 }
+.textYellow{
+    color: #EEA23E;
+}
 .bgSecondary{
     background-color: #F0F7FF;
 }
 .bgLight{
     background-color: #F8F9FB;
+}
+.bgOflight{
+    background-color: #FAFBFC;
 }
 .font-size-13{
     font-size: 13px;
@@ -185,9 +191,17 @@ body{
 .borderPrimary{
     border-bottom:1px solid #CEBEFE;
 }
+.borderSecondary{
+    border-bottom:1px solid #E5E5E7;
+}
 .borderX{
     border-left: 1px solid #E5E5E7;
     border-right: 1px solid #E5E5E7;
+}
+/* ================================================= */
+.activePlan{
+    border: 1px solid #2440E5;
+    margin-top: -4.8rem;
 }
 @media screen and (max-width:500px){
     .containerButtons .btn{
