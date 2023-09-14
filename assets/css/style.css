@@ -85,6 +85,10 @@ body{
     /* border-bottom: 1px solid #2541E5; */
     color: #2541E5;
 }
+.customHeader .navbar-nav .nav-item.has-megamenu .megamenu a:hover{
+    background-color: #F8F9FB;
+}
+
 .customHeader .navbar-toggler:focus{
     box-shadow: none;
 }
@@ -204,9 +208,19 @@ body{
 }
 /* ================================================= */
 .activePlan{
-    border: 1px solid #2440E5;
+    border: 2px solid #2440E5;
     margin-top: -4.8rem;
 }
+.plans{
+    margin-top: -6.5rem;
+}
+.plans .card{
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04), 0px 4px 24px 10px rgba(36, 64, 229, 0.08);
+}
+/* .plans .card .card-body{
+    padding: 32px;
+} */
 .minWidth{
     width: 290px;
 }
