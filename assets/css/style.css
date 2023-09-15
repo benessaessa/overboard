@@ -224,6 +224,11 @@ body{
 .minWidth{
     width: 290px;
 }
+.stylePopular{
+    border-radius: 0px 0px 6px 6px;
+    border: 1px solid rgba(10, 119, 255, 0.10);
+    background: #F0F7FF;
+}
 @media screen and (max-width:500px){
     .containerButtons .btn{
         width: 100%;
