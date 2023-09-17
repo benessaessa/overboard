@@ -206,6 +206,13 @@ body{
     border-left: 1px solid #E5E5E7;
     border-right: 1px solid #E5E5E7;
 }
+@media screen and (min-width:1200px){
+    .absoluteCard{
+        margin-right: 5rem;
+        margin-left: -5rem;
+        box-shadow: 16px 16px 0px 0px rgba(36, 64, 229, 0.10);
+    }
+}
 /* ================================================= */
 .activePlan{
     border: 2px solid #2440E5;
