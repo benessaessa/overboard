@@ -212,6 +212,11 @@ body{
         margin-left: -5rem;
         box-shadow: 16px 16px 0px 0px rgba(36, 64, 229, 0.10);
     }
+    .cardSegmant{
+        margin-right: -5rem;
+        margin-left: 5rem;
+        box-shadow: 16px 16px 0px 0px rgba(36, 64, 229, 0.10);
+    }
 }
 /* ================================================= */
 .activePlan{
