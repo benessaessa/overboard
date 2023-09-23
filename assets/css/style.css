@@ -26,6 +26,12 @@ body{
 .textYellow{
     color: #EEA23E;
 }
+.bgLightGreen{
+    background-color: #D2F5E0;
+}
+.borderSolid{
+    border: 1px solid #dcdcde;
+}
 .bgSecondary{
     background-color: #F0F7FF;
 }
@@ -87,6 +93,7 @@ body{
 }
 .customHeader .navbar-nav .nav-item.has-megamenu .megamenu a:hover{
     background-color: #F8F9FB;
+    border-radius: 5px;
 }
 
 .customHeader .navbar-toggler:focus{
@@ -95,9 +102,8 @@ body{
 .customHeader .megamenu{ padding: 1rem; }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
-	
 	.customHeader .has-megamenu{position:static!important;}
-	.customHeader .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	.customHeader .megamenu{left:0; right:0; width:100%; margin-top:0;  height: 80vh;overflow: auto;}
 	
 }	
 /* ============ desktop view .end// ============ */
@@ -162,7 +168,7 @@ body{
     text-align: center;
 }
 .marketing{
-    padding-top: 65px;
+    padding-top: 45px;
     background: url(../images/dot.png) repeat;
 }
 .imgAbsoluteBoard2{
