@@ -103,9 +103,18 @@ body{
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 	.customHeader .has-megamenu{position:static!important;}
-	.customHeader .megamenu{left:0; right:0; width:100%; margin-top:0;  height: 80vh;overflow: auto;}
+	.customHeader .megamenu{left:0; right:0; width:100%; margin-top:0;  height: 490px;overflow: auto;}
 	
-}	
+}
+@media all and (min-width: 1700px) {
+	.customHeader .megamenu{height: auto;overflow: auto;}
+	.megamenu .container{
+        max-width: initial;
+        padding-left: 35px !important;
+        padding-right: 30px !important;
+    }
+}
+
 /* ============ desktop view .end// ============ */
 
 
