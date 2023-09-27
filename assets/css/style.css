@@ -77,13 +77,16 @@ body{
 .customHeader{
     background-color: #FDFEFF;
     border: 1px solid #e4e7eb;
-    padding: 18px 24px 24px 24px;
+    padding: 14px 24px 20px 24px;
 }
 .customHeader .navbar-brand span{
     color: #0A123B;
     font-size: 16px;
     font-weight: 700;
     font-family: Space Grotesk;
+}
+.customHeader .navbar-nav{
+    gap: 25px;
 }
 .customHeader .navbar-nav .nav-item .nav-link{
     color: #20242B;
@@ -119,10 +122,10 @@ body{
 }
 @media all and (min-width: 1700px) {
 	.customHeader .megamenu{height: auto;overflow: auto;}
-	.megamenu .container{
+	.megamenu .container ,.customHeader{
         max-width: initial;
-        padding-left: 35px !important;
-        padding-right: 30px !important;
+        padding-left: 150px !important;
+        padding-right: 150px !important;
     }
 }
 
@@ -298,4 +301,17 @@ body{
 }
 .bgTabs{
     background-color: #F3F4F6;
+}
+.pillsSlider{
+    position: absolute;
+    margin-bottom: -3rem;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    background-color: #E5E7EBBF;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #2440E5 !important;
 }
